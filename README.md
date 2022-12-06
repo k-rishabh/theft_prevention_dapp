@@ -1,2 +1,3 @@
-# theft_prevention_dapp
+# Mobile Theft Prevention using Ethereum Blockchain
+
 A decentralized web application for mobile theft prevention.
