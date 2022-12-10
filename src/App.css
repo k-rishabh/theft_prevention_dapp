@@ -1,0 +1,43 @@
+*{
+  background-color: #121212;
+  color:#fff;
+}
+
+.App {
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formContainer{
+  display:flex;
+  flex-direction: column;
+}
+.input{
+  background-color: #252525;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.inputDrop{
+  background-color: #252525;
+  border: none;
+  padding: 10px;
+  border-right: 10px solid transparent;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.options{
+  border:none;
+}
+.submit{
+  background-color: rgb(128, 46, 46);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}

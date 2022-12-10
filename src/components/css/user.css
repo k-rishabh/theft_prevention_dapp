@@ -1,0 +1,32 @@
+.CardContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.addCard{
+    margin: 10px;
+    background-color: #252525;
+    width:120px;
+    height:160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-width: 1 px;
+    border-style: solid;
+    border-color: #303030 ;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.plus{
+    background-color: #252525;
+    font-size: 3em;
+}
+
+.addCard:hover{
+    border-color: #777 ;
+}
+.IMEIform button{
+    margin-left: 10px;
+}
