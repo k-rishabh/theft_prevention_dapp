@@ -20,7 +20,7 @@
 
 // START
 // const HDWalletProvider = require('@truffle/hdwallet-provider');
-// const mnemonic = 'someone carpet lesson mind muffin wall piece mountain settle flash area airport'
+// const mnemonic = ''; // enter mnemonic
 // END
 
 // const fs = require('fs');
@@ -65,7 +65,7 @@ module.exports = {
     // Useful for deploying to a public network.
     // NB: It's important to wrap the provider as a function.
 
-    // START
+    // FOR GOERLI (deployed through Alchemy)
     // goerli: {
     // provider: () => new HDWalletProvider(mnemonic, `https://eth-goerli.g.alchemy.com/v2/cDGbpCXb5xKxC7a5SEqNC_0UgINjRdG8`),
     // network_id: 5,       // Ropsten's id
@@ -74,8 +74,8 @@ module.exports = {
     // timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
     // skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
     // },
-
     // END
+    
     // Useful for private networks
     // private: {
     // provider: () => new HDWalletProvider(mnemonic, `https://network.io`),
